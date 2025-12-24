@@ -176,7 +176,7 @@ function Categories() {
             </p>
             <img
               className="absolute w-18 drop-shadow-xl drop-shadow-[#31739B] -mt-1 ml-6 rotate-270 h-auto"
-              src="src/assets/images/damnosh_reback.png"
+              src="/images/damnosh_reback.png"
               alt="coffee"
             />
           </motion.div>
