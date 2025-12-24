@@ -15,25 +15,25 @@ const galleryItems: GalleryItem[] = [
     category: "قهوه",
     title: "اسپرسو در نور صبحگاهی",
     description: "فنجان اسپرسو با بخار لطیف و عطر دلنشین",
-    imageUrl: "src/assets/images/mornning.png",
+    imageUrl: "/images/mornning.png",
   },
   {
     category: "دسر",
     title: "کیک شکلاتی",
     description: "کیک شکلاتی با لایه‌های خامه و دانه‌های قهوه",
-    imageUrl: "src/assets/images/cakechocolate.png",
+    imageUrl: "/images/cakechocolate.png",
   },
   {
     category: "قهوه",
     title: "لاته سرد",
     description: "لیوان بلند لاته با یخ و خامه",
-    imageUrl: "src/assets/images/icelatte.png",
+    imageUrl: "/images/icelatte.png",
   },
   {
     category: "میان وعده",
     title: "سالاد میوه",
     description: "سالاد میوه تازه در کاسه شیشه‌ای روی میز چوبی با نور ملایم",
-    imageUrl: "src/assets/images/fresh_fruit.png",
+    imageUrl: "/images/fresh_fruit.png",
   },
 ];
 const GalleryPage: React.FC = () => {
