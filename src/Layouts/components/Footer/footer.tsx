@@ -13,7 +13,7 @@ function Footer() {
     >
       {/* فنجون قهوه */}
       <img
-        src="/src/assets/images/coffee_removeback.png"
+        src="/images/coffee_removeback.png"
         alt="coffee cup"
         className="
           absolute -mt-30 mr-20 w-80 z-30
