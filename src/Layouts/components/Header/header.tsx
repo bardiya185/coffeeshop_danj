@@ -3,6 +3,7 @@ import { motion, useAnimation } from "framer-motion";
 import { HiMenu } from "react-icons/hi";
 import { useEffect, useState } from "react";
 import { Link, useLocation } from "react-router-dom";
+import 
 
 function Header() {
   const ctrl1 = useAnimation();
@@ -83,7 +84,7 @@ function Header() {
           کافه <span className=" text-[#E8A470]">دنج</span>
         </motion.div>
         <motion.img
-          src="src/assets/images/bean_coffee.png"
+          src="/images/bean_coffee.png"
           alt="bean"
           className="absolute left-1/2 top-13 transform -translate-x-1/2 -translate-y-1/2 w-30"
           initial={{ opacity: 0 }}
@@ -93,7 +94,7 @@ function Header() {
         />
 
         <motion.img
-          src="src/assets/images/coffee_removeback.png"
+          src="/public/images/coffee_removeback.png"
           alt="copilot"
           className="absolute left-1/2 -ml-3 top-13 transform -translate-x-1/2 -translate-y-1/2 w-25"
           initial={{ opacity: 0 }}
