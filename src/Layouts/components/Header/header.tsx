@@ -3,7 +3,6 @@ import { motion, useAnimation } from "framer-motion";
 import { HiMenu } from "react-icons/hi";
 import { useEffect, useState } from "react";
 import { Link, useLocation } from "react-router-dom";
-import 
 
 function Header() {
   const ctrl1 = useAnimation();
