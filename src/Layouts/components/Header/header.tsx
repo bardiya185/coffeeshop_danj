@@ -93,8 +93,8 @@ function Header() {
         />
 
         <motion.img
-          src="/public/images/coffee_removeback.png"
-          alt="copilot"
+          src="/images/coffee_removeback.png"
+          alt="coffee"
           className="absolute left-1/2 -ml-3 top-13 transform -translate-x-1/2 -translate-y-1/2 w-25"
           initial={{ opacity: 0 }}
           animate={ctrl2}
