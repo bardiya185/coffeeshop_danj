@@ -30,7 +30,7 @@ function Footer() {
       >
         {/* دونه‌های قهوه راست */}
         <motion.img
-          src="src/assets/images/bean_coffee.png"
+          src="/src/assets/images/bean_coffee.png"
           alt="coffee bean"
           className="
             absolute -right-10 w-100 opacity-100
@@ -43,7 +43,7 @@ function Footer() {
 
         {/* دونه‌های قهوه چپ */}
         <motion.img
-          src="src/assets/images/bean_coffee.png"
+          src="/src/assets/images/bean_coffee.png"
           alt="coffee bean"
           className="
             absolute -left-10 w-100 opacity-100

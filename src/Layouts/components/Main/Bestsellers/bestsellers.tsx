@@ -22,7 +22,7 @@ function BestSellers() {
       category: "قهوه",
       title: "لاته",
       price: 150000,
-      image: "src/assets/images/latte.png",
+      image: "/src/assets/images/latte.png",
       description: "نرم، خامه‌ای و دل‌چسب برای شروع روز",
     },
     {
@@ -30,7 +30,7 @@ function BestSellers() {
       category: "دمنوش",
       title: "دمنوش بابونه",
       price: 120000,
-      image: "src/assets/images/damnosh_baboneh.png",
+      image: "/src/assets/images/damnosh_baboneh.png",
       description: "آرامش در هر جرعه، مناسب لحظه‌های خلوت",
     },
     {
@@ -38,7 +38,7 @@ function BestSellers() {
       category: "میان‌وعده",
       title: "ساندویچ کلاب",
       price: 350000,
-      image: "src/assets/images/Club_sandwich.png",
+      image: "/src/assets/images/Club_sandwich.png",
       description: "پرملات، خوش‌طعم و مناسب گرسنگی‌های جدی",
     },
     {
@@ -46,7 +46,7 @@ function BestSellers() {
       category: "دسر",
       title: "چیزکیک",
       price: 250000,
-      image: "src/assets/images/cheesecake.png",
+      image: "/src/assets/images/cheesecake.png",
       description: "لطیف، شیرین و یک پایان رؤیایی برای وعده‌تان",
     },
   ];
