@@ -116,7 +116,7 @@ function Header() {
       <div
         className=" bg-[#d4d4d483] hidden max-[1024px]:block backdrop-blur-md w-screen h-screen z-50 fixed cursor-crosshair "
         onClick={() => {
-          setopen_menu(false);
+          closemenu();
         }}
         style={{
           right: opne_menu ? "0" : "-140%",
