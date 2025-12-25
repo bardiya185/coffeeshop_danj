@@ -12,7 +12,6 @@ function Comments() {
 type Comments = {
   id:number,
   name:string,
-  city:string,
   message:string
   star:number
 };
@@ -26,7 +25,7 @@ const items: Comments[] = [
   {
     id: 1,
     name: "سارا رجبی",
-    message: "«طعم قهوه خوب بود... فقط کاش زمان ارسال کمی سریع‌تر باشه.»",
+      message: "«طعم قهوه خوب بود... فقط کاش زمان ارسال کمی سریع‌تر باشه.»",
     star: 4,
   },
   {
@@ -38,7 +37,7 @@ const items: Comments[] = [
   {
     id: 3,
     name: "نگین قربانی",
-    message: "«طعم خوب بود ولی کمی تلخی‌اش بیشتر از حد انتظارم بود. بسته‌بندی عالی بود.»",
+     message: "«طعم خوب بود ولی کمی تلخی‌اش بیشتر از حد انتظارم بود. بسته‌بندی عالی بود.»",
     star: 3,
   },
   {

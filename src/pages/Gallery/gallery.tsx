@@ -1,7 +1,7 @@
 // GalleryPage.tsx
 import React from "react";
 
-import { motion } from 'framer-motion';
+import { motion } from "framer-motion";
 
 type GalleryItem = {
   category: string;
@@ -40,23 +40,24 @@ const GalleryPage: React.FC = () => {
   return (
     <>
       <motion.h1
-        className="text-3xl font-bold text-center mt-20 mb-8 max-[1024px]:mt-40"
-        initial={{y:-20 , opacity:0}}
-        animate={{y:0 , opacity:1}}
-        
-        transition={{duration:1 , ease:'easeInOut'}}
+        className="text-3xl font-bold mt-20 mb-8 max-[1024px]:mt-40  border-b-2 border-white w-20 pb-1 flex justify-self-center justify-center text-center"
+        initial={{ y: -20, opacity: 0 }}
+        animate={{ y: 0, opacity: 1 }}
+        transition={{ duration: 1, ease: "easeInOut" }}
       >
-        <h1 className=" border-b-2 border-white w-20 pb-1 flex justify-self-center justify-center text-center">گالری</h1>
+        گالری
       </motion.h1>
-      <section className="grid grid-cols-1 md:grid-cols-2  lg:grid-cols-3 gap-6" style={{direction:'rtl'}}>
+      <section
+        className="grid grid-cols-1 md:grid-cols-2  lg:grid-cols-3 gap-6"
+        style={{ direction: "rtl" }}
+      >
         {galleryItems.map((item, index) => (
           <motion.div
             key={index}
             className="bg-[#1e293b] rounded-lg overflow-hidden shadow-lg"
-
-            initial={{y:-20 , opacity:0}}
-            animate={{y:0 , opacity:1}}
-            transition={{duration:1 , delay: index * 0.2}}
+            initial={{ y: -20, opacity: 0 }}
+            animate={{ y: 0, opacity: 1 }}
+            transition={{ duration: 1, delay: index * 0.2 }}
           >
             <img
               src={item.imageUrl}

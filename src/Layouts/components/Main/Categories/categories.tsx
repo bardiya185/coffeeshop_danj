@@ -171,8 +171,7 @@ function Categories() {
             className="bg-[#2A4759] w-25 h-25 rounded-md -ml-60 absolute"
           >
             <p className="text-center -rotate-90 mt-10 -ml-4 absolute">
-              {" "}
-              دمنوش‌ها{" "}
+              دمنوش‌ها
             </p>
             <img
               className="absolute w-18 drop-shadow-xl drop-shadow-[#31739B] -mt-1 ml-6 rotate-270 h-auto"
@@ -206,8 +205,7 @@ function Categories() {
             className="bg-[#2A4759] w-25 h-25 rounded-md ml-60 absolute"
           >
             <p className="text-center rotate-90 mt-9 ml-10 absolute">
-              {" "}
-              میان‌وعده‌ها{" "}
+              میان‌وعده‌ها
             </p>
             <img
               className="absolute drop-shadow-xl drop-shadow-[#31739B] w-18 h-auto mt-6 rotate-90"
