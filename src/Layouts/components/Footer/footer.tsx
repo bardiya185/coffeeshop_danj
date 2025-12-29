@@ -2,6 +2,7 @@ import { FaInstagram, FaGithub, FaTelegram, FaLinkedin } from "react-icons/fa";
 import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
 
+
 function Footer() {
   return (
     <motion.footer className="w-full  pb-10 flex justify-center  relative"
@@ -13,7 +14,7 @@ function Footer() {
     >
       {/* فنجون قهوه */}
       <img
-        src="/images/coffee_removeback.png"
+        src="/images/coffee_removeback.webp"
         alt="coffee cup"
         className="
           absolute -mt-30 mr-20 w-80 z-30
@@ -25,16 +26,12 @@ function Footer() {
         className="
         relative bg-[#e39c6b] w-[90%]  max-w-5xl rounded-2xl py-16 
         flex flex-col items-center text-center overflow-hidden
-<<<<<<< HEAD
        max-[640]:h-20 min-[640]:h-[300px] max-sm:py-10
-=======
-       max-[640]:h-auto min-[640]:h-[300px] max-sm:py-10
->>>>>>> f8eebe016ccbae9f3ef9af6adebe90595033843f
       "
       >
         {/* دونه‌های قهوه راست */}
         <motion.img
-          src="/images/bean_coffee.png"
+          src="/images/bean_coffee.webp"
           alt="coffee bean"
           className="
             absolute -right-10 w-100 opacity-100
@@ -47,7 +44,7 @@ function Footer() {
 
         {/* دونه‌های قهوه چپ */}
         <motion.img
-          src="/images/bean_coffee.png"
+          src="/images/bean_coffee.webp"
           alt="coffee bean"
           className="
             absolute -left-10 w-100 opacity-100

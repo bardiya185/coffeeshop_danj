@@ -34,7 +34,7 @@ function Home() {
           >
             <img
               className="w-100 max-[1024px]:w-70 max-[1024px]:h-40 max-[1024px]:mr-20 z-0 mr-30 h-70 object-cover"
-              src="/images/coffee_removeback.png"
+              src="/images/coffee_removeback.webp"
               alt="coffee"
             />
           </motion.div>
@@ -54,7 +54,7 @@ function Home() {
           >
             <motion.img
               className="w-50 max-[1024px]:w-30 max-[1024px]:h-auto scale-90 z-0 max-[1024px]:mr-70 mr-30 -mt-60 h-30 "
-              src="/images/coffee_removeback.png"
+              src="/images/coffee_removeback.webp"
               alt="coffee"
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
@@ -110,7 +110,7 @@ function Home() {
           >
             <motion.img
               className="w-50 scale-140 z-0 mr-30 mt-20 h-30 max-[1024px]:h-auto max-[1024px]:w-35 max-[1024px]:ml-10"
-              src="/images/coffee_removeback.png"
+              src="/images/coffee_removeback.webp"
               alt="coffee"
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
