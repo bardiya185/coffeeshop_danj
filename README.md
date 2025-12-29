@@ -111,7 +111,7 @@ pnpm dev
 
 👨‍💻 Developer
 Bardiya
-Front-End Developer | React & UI Enthusiast ☕
+Full-Stack Developer | React & UI Enthusiast ☕
 
 🔗 GitHub: https://github.com/bardiya185
 🌍 Live Demo: https://coffeeshopdanj.vercel.app
