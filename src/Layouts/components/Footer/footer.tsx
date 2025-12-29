@@ -25,7 +25,11 @@ function Footer() {
         className="
         relative bg-[#e39c6b] w-[90%]  max-w-5xl rounded-2xl py-16 
         flex flex-col items-center text-center overflow-hidden
+<<<<<<< HEAD
        max-[640]:h-20 min-[640]:h-[300px] max-sm:py-10
+=======
+       max-[640]:h-auto min-[640]:h-[300px] max-sm:py-10
+>>>>>>> f8eebe016ccbae9f3ef9af6adebe90595033843f
       "
       >
         {/* دونه‌های قهوه راست */}
