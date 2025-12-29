@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: iran1;
+  src: url('./assets/Fonts/IRANYekanX-DemiBold.woff');
+}
+
+@font-face {
+  font-family: iran2;
+  src: url('./assets/Fonts/IRANYekanX-ExtraBold.woff');
+}
+:root {
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #2A4759;
+font-family: iran1;
+}
