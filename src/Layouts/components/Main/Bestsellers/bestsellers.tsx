@@ -1,56 +1,10 @@
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Autoplay } from "swiper/modules";
 import { motion } from "framer-motion";
-
+import { items } from "./gallery_image_list"; 
 import 'swiper/css';
 import 'swiper/css/navigation';
-
-
 function BestSellers() {
-  type BestSellers = {
-    id: number;
-    category: string;
-    title: string;
-    price: number;
-    image: string;
-    description: string;
-  };
-
-  const items: BestSellers[] = [
-    {
-      id: 1,
-      category: "قهوه",
-      title: "لاته",
-      price: 150000,
-      image: "/images/latte.png",
-      description: "نرم، خامه‌ای و دل‌چسب برای شروع روز",
-    },
-    {
-      id: 2,
-      category: "دمنوش",
-      title: "دمنوش بابونه",
-      price: 120000,
-      image: "/images/damnosh_baboneh.png",
-      description: "آرامش در هر جرعه، مناسب لحظه‌های خلوت",
-    },
-    {
-      id: 3,
-      category: "میان‌وعده",
-      title: "ساندویچ کلاب",
-      price: 350000,
-      image: "/images/Club_sandwich.png",
-      description: "پرملات، خوش‌طعم و مناسب گرسنگی‌های جدی",
-    },
-    {
-      id: 4,
-      category: "دسر",
-      title: "چیزکیک",
-      price: 250000,
-      image: "/images/cheesecake.png",
-      description: "لطیف، شیرین و یک پایان رؤیایی برای وعده‌تان",
-    },
-  ];
-
   return (
     <div
       style={{

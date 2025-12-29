@@ -1,56 +1,18 @@
 /* eslint-disable react-hooks/exhaustive-deps */
 import { animate, motion } from "framer-motion";
 import { useEffect, useRef, useState } from "react";
-
+import { CircleCategories } from "./categories_image_list";
 import {
   TiArrowDownThick,
   TiMediaPlay,
   TiMediaPlayReverse,
 } from "react-icons/ti";
-
 function Categories() {
-  type Categories = {
-    id: number;
-    image: string;
-    title: string;
-    text: string;
-  };
-
-  const CircleCategories: Categories[] = [
-    {
-      id: 0,
-      image: "/images/coffee.png",
-      title: "قهوه ها",
-      text: `قهوه نوشیدنی محبوبی است با عطر و طعم خاص. بیشترشان بر پایه‌ی اسپرسو ساخته می‌شوند و با ترکیب آب، شیر یا شکلات، به شکل‌های معروفی مثل آمریکانو، لاته، کاپوچینو موکا , ماکیاتو و همچنین قهوه ترک در می‌آیند`,
-    },
-    {
-      id: 1,
-      image: "/images/damnosh.png",
-      title: "دمنوش ها",
-      text: `دمنوش‌ها نوشیدنی‌هایی گیاهی هستند با خواص آرام‌بخش، درمانی و طعم‌های متنوع. بیشترشان از ترکیب گل‌ها، برگ‌ها، ادویه‌ها یا میوه‌ها تهیه می‌شوند و به شکل‌های محبوبی مثل گل‌گاوزبان، بابونه، چای ترش، زنجبیل، نعناع، دارچین و اسطوخودوس در میان علاقه‌مندان شناخته شده‌اند`,
-    },
-    {
-      id: 2,
-      image: "/images/deser.png",
-      title: "دسر ها",
-      text: "دسرها خوراکی‌های شیرین و دل‌چسبی هستند که پس از وعده‌ی اصلی سرو می‌شوند. بیشترشان با ترکیب خامه، شکلات، میوه یا آرد تهیه می‌شوند و به شکل‌های معروفی مثل کیک، تارت، براونی، پودینگ، ژله و بستنی در می‌آیند",
-    },
-    {
-      id: 3,
-      image: "/images/snack.png",
-      title: "میان وعده ها",
-      text: "میان‌وعده‌ها خوراکی‌های سبک و مقوی هستند که بین وعده‌های اصلی مصرف می‌شوند و انرژی بدن را تجدید می‌کنند. بیشترشان از ترکیب میوه، لبنیات، غلات یا آجیل تهیه می‌شوند و به شکل‌های معروفی مثل ماست میوه‌ای، گرانولا بار، اسموتی، کوکی، ساندویچ سرد، کراکر و مغزها در می‌آیند",
-    },
-  ];
-
-   
   const [CircleIndex, SetCircleIndex] = useState(0);
   const [OnBtn, SetOnBtn] = useState(true);
-
   const angleRef = useRef(0);
   const indexRef = useRef(0);
   const timerRef = useRef<number | null>(null);
-
   const rotateStep = (dir: number = 1) => {
     const nextAngle = angleRef.current + 90 * dir;
     const nextIndex =
@@ -156,7 +118,7 @@ function Categories() {
           >
             <img
               className="absolute w-30 drop-shadow-xl drop-shadow-[#31739B] -ml-3 h-auto mt-8"
-              src="/images/coffee_removeback.png"
+              src="/images/coffee_removeback.webp"
               alt="coffee"
             />
             <p className="text-center mt-2">قهوه ها</p>
@@ -175,7 +137,7 @@ function Categories() {
             </p>
             <img
               className="absolute w-18 drop-shadow-xl drop-shadow-[#31739B] -mt-1 ml-6 rotate-270 h-auto"
-              src="/images/damnosh_reback.png"
+              src="/images/damnosh_reback.webp"
               alt="coffee"
             />
           </motion.div>
@@ -191,7 +153,7 @@ function Categories() {
             <p className="text-center -rotate-180 mt-17 ml-7 absolute">دسرها</p>
             <img
               className="absolute w-20 drop-shadow-xl drop-shadow-[#31739B] mt-2 ml-2 h-auto rotate-180"
-              src="/images/deser_reback.png"
+              src="/images/deser_reback.webp"
               alt="coffee"
             />
           </motion.div>
@@ -209,7 +171,7 @@ function Categories() {
             </p>
             <img
               className="absolute drop-shadow-xl drop-shadow-[#31739B] w-18 h-auto mt-6 rotate-90"
-              src="/images/snack_reback.png"
+              src="/images/snack_reback.webp"
               alt="coffee"
             />
           </motion.div>

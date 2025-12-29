@@ -83,7 +83,7 @@ function Header() {
           کافه <span className=" text-[#E8A470]">دنج</span>
         </motion.div>
         <motion.img
-          src="/images/bean_coffee.png"
+          src="/images/bean_coffee.webp"
           alt="bean"
           className="absolute left-1/2 top-13 transform -translate-x-1/2 -translate-y-1/2 w-30"
           initial={{ opacity: 0 }}
@@ -93,7 +93,7 @@ function Header() {
         />
 
         <motion.img
-          src="/images/coffee_removeback.png"
+          src="/images/coffee_removeback.webp"
           alt="coffee"
           className="absolute left-1/2 -ml-3 top-13 transform -translate-x-1/2 -translate-y-1/2 w-25"
           initial={{ opacity: 0 }}

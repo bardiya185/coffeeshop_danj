@@ -2,53 +2,11 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Autoplay } from "swiper/modules";
 import { PiCoffeeBeanBold } from "react-icons/pi";
 import { motion } from "framer-motion";
-
+import {items} from './list_of_comments';
 import "swiper/css";
 import "swiper/css/navigation";
 
 function Comments() {
-
-  
-type Comments = {
-  id:number,
-  name:string,
-  message:string
-  star:number
-};
-const items: Comments[] = [
-  {
-    id: 0,
-    name: "امیر حسینی",
-    message: "«قهوه‌هاتون واقعاً کیفیت عالی داره... بسته‌بندی هم خیلی تمیز و شیک بود.»",
-    star: 5,
-  },
-  {
-    id: 1,
-    name: "سارا رجبی",
-      message: "«طعم قهوه خوب بود... فقط کاش زمان ارسال کمی سریع‌تر باشه.»",
-    star: 4,
-  },
-  {
-    id: 2,
-    name: "محمدرضا زمانی",
-    message: "«بهترین آمریکانویی که تا حالا خریدم! حتماً دوباره سفارش میدم.»",
-    star: 5,
-  },
-  {
-    id: 3,
-    name: "نگین قربانی",
-     message: "«طعم خوب بود ولی کمی تلخی‌اش بیشتر از حد انتظارم بود. بسته‌بندی عالی بود.»",
-    star: 3,
-  },
-  {
-    id: 4,
-    name: "پیمان توسلی",
-    message: "«عالی عالی عالی! خیلی حرفه‌ای آسیاب شده بود و عطرش کل خونه رو برداشته بود.»",
-    star: 5,
-  },
-];
-
-
   return (
     <div
       style={{

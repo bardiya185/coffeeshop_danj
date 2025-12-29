@@ -61,7 +61,7 @@ const AboutUs: React.FC = () => {
               transition={{ duration:0.5, delay: 1, ease: "easeInOut" }}
             >
               <img
-                src="/images/AboutUs_Photo.jpg"
+                src="/images/AboutUs_Photo.webp"
                 alt="Cafe Din"
                 className="w-full  rounded-2xl h-full object-cover"
               />
