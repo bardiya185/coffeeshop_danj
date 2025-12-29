@@ -42,7 +42,7 @@ This project simulates a real café website and highlights:
 <div align="center">
 
 ### 💻 Desktop View
-<img src="[./screenshots/desktop.png](https://github.com/bardiya185/coffeeshop_danj/blob/main/public/screenshots/desktop.png?raw=true)" width="80%" alt="Desktop Screenshot"/>
+<img src="https://github.com/bardiya185/coffeeshop_danj/blob/main/public/screenshots/desktop.png?raw=true" width="80%" alt="Desktop Screenshot"/>
 
 <br/><br/>
 
