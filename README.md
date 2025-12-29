@@ -17,7 +17,7 @@
 
 <br/>
 
-<img src="./screenshots/desktop.png" alt="CoffeeShop Danj Desktop Preview" width="90%" />
+<img src="https://github.com/bardiya185/coffeeshop_danj/blob/main/public/screenshots/desktop.png?raw=true" alt="CoffeeShop Danj Desktop Preview" width="90%" />
 
 </div>
 
@@ -42,12 +42,12 @@ This project simulates a real café website and highlights:
 <div align="center">
 
 ### 💻 Desktop View
-<img src="./screenshots/desktop.png" width="80%" alt="Desktop Screenshot"/>
+<img src="[./screenshots/desktop.png](https://github.com/bardiya185/coffeeshop_danj/blob/main/public/screenshots/desktop.png?raw=true)" width="80%" alt="Desktop Screenshot"/>
 
 <br/><br/>
 
 ### 📱 Mobile View
-<img src="./screenshots/mobile.png" width="35%" alt="Mobile Screenshot"/>
+<img src="https://github.com/bardiya185/coffeeshop_danj/blob/main/public/screenshots/mobile.png?raw=true" width="35%" alt="Mobile Screenshot"/>
 
 </div>
 
