@@ -91,6 +91,7 @@ export default function CafeMenuPage() {
             >
               {/* تصویر سمت راست */}
               <img
+              loading="lazy"
                 className="rounded-xl w-25 h-25 lg:w-30 lg:h-30 md:w-30 md:h-30 object-cover mb-0 mt-0 sm:mb-0 sm:ml-4"
                 src={item.image}
                 alt={item.alt}
