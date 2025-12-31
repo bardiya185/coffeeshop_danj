@@ -79,7 +79,7 @@ export default function CafeMenuPage() {
             <motion.div
               initial={{ scale: 0.8, opacity: 0, y: -40 }}
               animate={{ scale: 1, opacity: 1, y: 0 }}
-              transition={{ duration: 0.5, delay: index * 0.2 }}
+              transition={{ duration: 1, delay: index * 0.5 }}
               key={item.id}
               // دسکتاپ: عمودی | موبایل: افقی با عکس سمت راست
               className="bg-[#E8A470] rounded-2xl p-5  overflow-hidden  shadow-sm hover:shadow-xl hover:bg-[#ffb46d] cursor-pointer transition-colors flex flex-row lg:flex-row sm:flex-row items-center sm:items-end sm:text-rigth text-center"
