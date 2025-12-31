@@ -60,6 +60,7 @@ const GalleryPage: React.FC = () => {
             transition={{ duration: 1, delay: index * 0.2 }}
           >
             <img
+            loading="lazy"
               src={item.imageUrl}
               alt={item.title}
               className="w-full h-64 object-cover"
