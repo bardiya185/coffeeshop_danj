@@ -90,7 +90,7 @@ export default function CafeMenuPage() {
               }
             >
               {/* تصویر سمت راست */}
-              <div className="rounded-xl z-0 fixed w-25 h-25 lg:w-30 lg:h-30 md:w-30 md:h-30  mb-0 mt-0 sm:mb-0 sm:ml-4 animate-pulse bg-[#ffffffab]"></div>
+              <div className="rounded-xl z-0 absolute w-25 h-25 lg:w-30 lg:h-30 md:w-30 md:h-30  mb-0 mt-0 sm:mb-0 sm:ml-4 animate-pulse bg-[#ffffffab]"></div>
               <img
               loading="lazy"
                 className="rounded-xl  z-10 w-25 h-25 lg:w-30 lg:h-30 md:w-30 md:h-30 object-cover mb-0 mt-0 sm:mb-0 sm:ml-4"
